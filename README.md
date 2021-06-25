@@ -1,1 +1,1 @@
-# hangman-game-unit-4-mini-projecct
+# hangman-game-unit-4-mini-project
