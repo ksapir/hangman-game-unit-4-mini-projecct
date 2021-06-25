@@ -8,10 +8,14 @@
     <title>Hangman Game</title>
 </head>
 <body>
-    <div id="word-box">
+    <header>
+        <h1>Hangman Game!</h1>
+    </header>
+    <main>
+    <div class="box" id="word-box">
         <h1>Guess the word!</h1>
     </div>
-    <div id="stats">
+    <div class="box" id="stats">
         <h3>Words finished:</h3>
         <p id="finished" data-amount="num1" data-start="start"></p>
         <h3>Words missed:</h3>
@@ -19,6 +23,7 @@
         <h3>Seconds Remaing</h3>
         <p id="time" data-amount="num3" data-start="ten-sec"></p>
     </div>
+    </main>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
